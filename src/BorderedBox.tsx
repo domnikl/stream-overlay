@@ -9,7 +9,7 @@ interface BorderBoxProps {
 export function BorderedBox(props: BorderBoxProps) {
   return (
     <section style={{ gridArea: props.gridArea }} className="BorderedBox">
-      {props.title}
+      <div className="ColoredTitle">{props.title}</div>
       <div className="ColoredBorder"></div>
     </section>
   );

@@ -1,5 +1,5 @@
 .App {
-  background-color: #282c34;
+  background-color: var(--dark-primary-color);
   padding: 20px;
   width: calc(100vw - 40px);
   height: calc(100vh - 40px);
@@ -9,7 +9,7 @@
   height: calc(100vh - 40px);
   display: grid;
   grid-template-columns: 4fr 1fr;
-  grid-template-rows: 233px 4fr;
+  grid-template-rows: 240px 4fr;
   grid-template-areas:
     "screen cam"
     "screen sidebar";
