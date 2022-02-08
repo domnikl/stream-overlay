@@ -6,9 +6,9 @@ function App() {
   return (
     <div className="App">
       <div className="BoxGrid">
-        <BorderedBox gridArea="screen" />
-        <BorderedBox gridArea="cam" />
-        <BorderedBox gridArea="sidebar" />
+        <BorderedBox gridArea="screen" title="screen" />
+        <BorderedBox gridArea="cam" title="cam" />
+        <BorderedBox gridArea="sidebar" title="sidebar" />
       </div>
     </div>
   );

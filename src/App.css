@@ -9,7 +9,7 @@
   height: calc(100vh - 40px);
   display: grid;
   grid-template-columns: 4fr 1fr;
-  grid-template-rows: 212px 4fr;
+  grid-template-rows: 233px 4fr;
   grid-template-areas:
     "screen cam"
     "screen sidebar";
